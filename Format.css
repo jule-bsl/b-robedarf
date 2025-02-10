@@ -1,0 +1,132 @@
+/* CSS Document */
+
+body {
+background-color: #FFF0D0; 
+}
+
+h1 {
+color: #0050A0; 
+}
+
+h2 {
+color: #00A0D0; 
+}
+
+b {
+color: #FFC030;
+}
+
+p {
+color: #FF9030;
+}
+
+a:link{
+    color:#FFC030;
+    background:#00A0D0;
+
+}
+
+a:visited {
+    color:#0050A0
+}
+
+a:focus {
+    color:#FFF0D0;
+}
+
+a:hover {
+    color:#00A0D0;
+    background-color: #FF9030;
+}
+
+a { 
+    text-decoration: none; /*keine Unterstreichunge im Link*/
+}
+
+table, th, td {
+    border: 1px solid #3E3E3D; /*1. Rahmendicke, 2. Rahmentyp, 3. Rahmenfarbe */
+    color: #FFFFFF;
+    font-family: Courier ; /*Schriftart*/
+    width: 800px;
+    table-layout: auto;
+}
+
+th {
+    background-color: #3E3E3D;
+    
+}
+
+td {
+    background-color: #868686;
+}
+
+table, th, td {
+    border: 1px solid #3E3E3D; /*1. Rahmendicke, 2. Rahmentyp, 3. Rahmenfarbe */
+    color: #FFFFFF;
+    font-family: Courier ; /*Schriftart*/
+    width: 800px;
+    table-layout: auto;
+    
+}
+
+#Bild1 {
+    box-shadow: 10px 10px 10px #0050A0;
+} /* spricht eine id an 1, stärke 2. vertikale Breite 3. Horizontale breite 4.Schattenfarbe */
+ 
+#Bild2 {
+    border-color: #FF9030; border-width: 5px; border-style: double;
+} /* 1.Border-wigth 2. border-style 3. border-color */
+
+#Bild3 {
+    border:1px solid #000000;
+    border-radius: 100%;
+} 
+
+header {
+    border:1px solid #000000;
+    background-color:#73ff003a;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+}
+
+nav {
+    border:1px solid #000000;
+    background-color:#0099ff2f;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+
+}
+
+main {
+    border:1px solid #3b2e2e;
+    background-color:#f5d64bcb;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    height:630px;
+
+
+}
+
+footer {
+    border:1px solid #000000;
+    background-color:#ff7b005d;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+
+}
+
+iframe {
+    border: none; /*Unterdrückt den Rahmen*/
+    height:630px;
+    width: 100%;
+
+}
+
+.Hintergrund { /*Um eine Klasse anzusprechen erfolt zu Beginn ein Punkt*/
+    background-color: #f5d64bcb;
+}
+
